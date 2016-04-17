@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>加藤大晴のウェブサイト</title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+
+        <!-- Bootstrap
+             [customize]
+             @font-family-sans-serif: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+             @font-size-base: 16px;
+             @line-height-base: 1.6;
+        -->
+
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+
+        <nav class="navbar navbar-default navbar-static-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">加藤大晴のウェブサイト</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#sec_updates">更新情報</a></li>
+                        <li><a href="#sec_about">自己紹介</a></li>
+                        <li><a href="#sec_research">研究活動</a></li>
+                        <li><a href="#sec_contact">連絡先</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+
+            <div class="page-header">
+                <h1>加藤大晴のウェブサイト</h1>
+                <p><a href="index_en.html">[English version]</a></p>
+            </div>
+
+            <h2 id="sec_updates">更新情報</h2>
+            <hr>
+            <ul>
+                <li>2015/11/27 CNN-VLM のソースコードをアップロードしました</li>
+                <li>2015/11/12 論文 <a href="http://arxiv.org/pdf/1511.02872v1" target="_blank">"Visual Language Modeling on CNN Image Representations"</a> (CNN-VLM) を arXiv にアップロードしました</li>
+                <li>2015/07/25 研究成果が <a href="http://www.technologyreview.com/view/537786/is-this-the-first-computational-imagination/" target="_blank">MIT Technology Review</a> に取り上げられました</li>
+                <li>2015/06/05 arXiv にアップロードしたもののコードをアップロードしました</li>
+                <li>2015/05/23 CVPR 2014 で発表したものの改訂版を arXiv にアップロードしました</li>
+                <li>2015/04/15 CVPR 2014 の supplementary materials をアップロードしました</li>
+                <li>2014/11/12 CVPR 2014 のソースコードをアップロードしました</li>
+                <li>2014/10/28 MIRU 2014 のスライドをアップロードしました</li>
+            </ul>
+
+            <h2 id="sec_about">自己紹介</h2>
+            <hr>
+            <p>ソニー株式会社で研究開発職に就いています。</p>
+
+            <!-- research -->
+            <h2 id="sec_research">研究活動</h2>
+            <hr>
+
+            <h3>所属</h3>
+            <ul>
+                <li>2011/04 - 2012/03: 國吉原田研究室 （東京大学 工学部）</li>
+                <li>2012/04 - 2013/03: 國吉原田研究室 （東京大学大学院 情報理工学系研究科）</li>
+                <li>2013/04 - 2014/03: 原田研究室 （東京大学大学院 情報理工学系研究科）</li>
+            </ul>
+
+            <h3>学位</h3>
+            <ul>
+                <li>
+                    修士 (情報理工学) - 東京大学大学院
+                    <ul>
+                        <li>修士論文: Bag-of-Visual-Words 画像特徴からの画像再構成
+                        <li>指導教員: 原田達也 教授</li>
+                    </ul>
+                </li>
+                <li>
+                    学士 (工学) - 東京大学
+                    <ul>
+                        <li>卒業論文: 移動体における少数画像サンプルからの異常検出
+                        <li>指導教員: 原田達也 准教授</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>論文</h3>
+            <ul>
+                <li>
+                    <strong>Hiroharu Kato</strong> and Tatsuya Harada. <strong>Visual Language Modeling on CNN Image Representations</strong>. arXiv:1511.02872, 2015.
+                    <div class="input-append btn-group small">
+                        <button class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown">Download <span class="caret"></span></button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation" class="small"><a role="menuitem" tabindex="-1" href="http://arxiv.org/pdf/1511.02872v1" target="_blank">Paper [pdf]</a></li>
+                            <li role="presentation" class="small divider"></li>
+                            <li role="presentation" class="small"><a role="menuitem" tabindex="-1" href="https://github.com/hiroharu-kato/cnn_vlm" target="_blank">Code</a></li>
+                            <li role="presentation" class="small"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#bibtex_cnnvlm_arxiv2015">BibTeX</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <strong>Hiroharu Kato</strong> and Tatsuya Harada. <strong>Image Reconstruction from Bag-of-Visual-Words</strong>. arXiv:1505.05190, 2015.
+                    <div class="input-append btn-group small">
+                        <button class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown">Download <span class="caret"></span></button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation" class="small"><a role="menuitem" tabindex="-1" href="http://arxiv.org/pdf/1505.05190v1" target="_blank">Paper [pdf]</a></li>
+                            <li role="presentation" class="small divider"></li>
+                            <li role="presentation" class="small"><a role="menuitem" tabindex="-1" href="./download/arxiv_2015_code.tar.gz" target="_blank">Code</a></li>
+                            <li role="presentation" class="small"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#bibtex_bovw_arxiv2015">BibTeX</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <strong>Hiroharu Kato</strong> and Tatsuya Harada. <strong>Image Reconstruction from Bag-of-Visual-Words</strong>. IEEE Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2014. (acceptance rate: 29.9%)
+                    <div class="input-append btn-group small">
+                        <button class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown">Download <span class="caret"></span></button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation" class="small"><a role="menuitem" tabindex="-1" href="./download/cvpr_2014_paper.pdf" target="_blank">Paper [pdf]</a></li>
+                            <li role="presentation" class="small divider"></li>
+                            <li role="presentation" class="small"><a role="menuitem" tabindex="-1" href="./download/cvpr_2014_poster.pdf" target="_blank">Poster [pdf]</a></li>
+                            <li role="presentation" class="small"><a role="menuitem" tabindex="-1" href="./download/cvpr_2014_code.tar.gz" target="_blank">Code</a></li>
+                            <li role="presentation" class="small"><a role="menuitem" tabindex="-1" href="./download/cvpr_2014_supplement.tar.gz" target="_blank">Supplementary Material</a></li>
+                            <li role="presentation" class="small"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#bibtex_cvpr2014">BibTeX</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <strong>Hiroharu Kato</strong>, Tatsuya Harada, and Yasuo Kuniyoshi. <strong>Visual Anomaly Detection from Small Samples for Mobile Robots</strong>. IEEE/RSJ International Conference on Intelligent Robots and Systems (<strong>IROS</strong>), 2012.
+                    <div class="input-append btn-group small">
+                        <button class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown">Download <span class="caret"></span></button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation" class="small"><a role="menuitem" tabindex="-1" href="./download/iros_2012_paper.pdf" target="_blank">Paper [pdf]</a></li>
+                            <li role="presentation" class="small divider"></li>
+                            <li role="presentation" class="small"><a role="menuitem" tabindex="-1" href="./download/iros_2012_slides.pdf" target="_blank">Slides [pdf]</a></li>
+                            <li role="presentation" class="small"><a role="menuitem" tabindex="-1" data-toggle="modal" data-target="#bibtex_iros2012">BibTeX</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+            <h3>招待講演</h3>
+            <ul>
+                <li>
+                    <strong>Hiroharu Kato</strong> and Tatsuya Harada. <strong>[CVPR 2014] Image Reconstruction from Bag-of-Visual-Words</strong>. MIRU 2014 第17回 画像の認識・理解シンポジウム, 2014.
+                    <div class="input-append btn-group small">
+                        <button class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown">Download <span class="caret"></span></button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation" class="small"><a role="menuitem" tabindex="-1" href="./download/miru_2014_slides.pdf" target="_blank">Slides [pdf]</a></li>
+                            <li role="presentation" class="small"><a role="menuitem" tabindex="-1" href="./download/miru_2014_poster.pdf" target="_blank">Poster [pdf]</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+            <h3>メディア掲載</h3>
+            <ul>
+                <li>
+                    "Is This the First Computational Imagination?” MIT Technology Review, May 28, 2015. <a href="http://www.technologyreview.com/view/537786/is-this-the-first-computational-imagination/" target="_blank">Article Online</a>.
+                </li>
+            </ul>
+
+            <!-- contact -->
+            <h2 id="sec_contact">連絡先</h2>
+            <hr>
+            <ul>
+                <li>Mail: hiroharu.kato.1989.10.13 [at] gmail.com</li>
+            	<li><a href="https://www.facebook.com/hiroharu.kato" target="_blank">Facebook</a></li>
+            	<li><a href="https://twitter.com/hiroharu_kato" target="_blank">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/pub/hiroharu-kato/53/4b1/502" target="_blank">LinkedIn</a>
+            </ul>
+
+
+            <!-- footer -->
+            <hr>
+            <p class="text-center">Cpyright (C) 2014 Hiroharu Kato. All Rights Reserved.</p>
+
+        </div>
+
+
+        <div class="modal fade" id="bibtex_cnnvlm_arxiv2015" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <pre>
+@article{kato2015cnnvlm,
+    author={Kato, Hiroharu and Harada, Tatsuya},
+    title={Visual Language Modeling on CNN Image Representations},
+    journal={arXiv preprint arXiv:1511.02872},
+    year={2015}
+}</pre>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="bibtex_bovw_arxiv2015" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <pre>
+@article{kato2015bovw,
+    author={Kato, Hiroharu and Harada, Tatsuya},
+    title={Image Reconstruction from Bag-of-Visual-Words},
+    journal={arXiv preprint arXiv:1505.05190},
+    year={2015}
+}</pre>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="bibtex_cvpr2014" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <pre>
+@InProceedings{kato2014bovw,
+    author={Kato, Hiroharu and Harada, Tatsuya},
+    title={Image Reconstruction from Bag-of-Visual-Words},
+    booktitle={The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year={2014}
+}</pre>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="bibtex_iros2012" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <pre>
+@InProceedings{kato2012anomaly,
+    author={Hiroharu Kato and Tatsuya Harada and Yasuo Kuniyoshi},
+    title={Visual Anomaly Detection from Small Samples for Mobile Robots},
+    booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+    year={2012}
+}</pre>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+# コンテンツ
+* [雑記](./note)
+
+# 活動
+* [Twitter](https://twitter.com/parosky0) ([favstar](http://ja.favstar.fm/users/parosky0))
+* [はてなブックマーク](http://b.hatena.ne.jp/parosky/bookmark)
+* [GitHub](https://github.com/parosky)
+* [slideshare](http://www.slideshare.net/parosky0)
+* [Booklog](http://booklog.jp/users/parosky)
+* [Amazon ほしい物リスト](http://www.amazon.co.jp/registry/wishlist/1GSERQ73P7X2Q)
+
+# 最近の記事
+* 2014年12月 [プロジェクトページ「画像補完技術による衣服の除去」公開](./projects/undresser)
+* 2014年08月 [佐村河内問題 改訂](./projects/samuragochi)
+* 2014年03月 佐村河内守氏の偽物の識別に挑戦
+* 2013年12月 [論文『画像補完技術による衣服の除去』を発表](./note/20131226)
+* 2013年11月 [顔検出の併用による肌色検出手法を開発](./note/20131211)
+* 2013年10月 [Chrome 拡張『ポリティカル・コレクタ』を公開](./note/20131009)
+* 2013年06月 第4回開発コンテスト24にて『黒歴史 Finder』を開発
+* 2013年06月 [高円寺の Web マガジン Concent に寄稿](http://concent--c.jp/guest/1191/)
+* 2013年03月 ふぁぼアルバムを公開
+* 2013年02月 [UT Startup Gym で講演](./note/20130213)
+* 2013年01月 [Facebook の Poke を自動化](.https://github.com/parosky/auto_poke)
+* 2012年12月 [論文『大規模 AV 画像データベースと類似顔画像検索を用いた AV 検索システム』を公開](./note/20130129)
+* 2012年11月 AV を検索するツール、週刊アスキーに掲載
+* 2012年11月 [顔画像をもとに似た顔の人が出ている AV を検索するツールを公開](./note/20121127)
+* 2012年11月 ACM Muitlmedia 2012（奈良） 見学
+* 2012年10月 IROS 2012（ポルトガル） 参加
+* 2012年08月 [誰でも東大のミスコンに出場した気になれるスクリプトを公開](./note/20120807)
+* 2012年05月 [Twitter Bot 『サラダ記念日』を開発](./note/20120528)
+* 2012年05月 [Facebook 日本人ユーザ約1150万人のユーザ ID を収集](./note/20120507)
+* 2012年05月 [機械学習によるなぞなぞの解決に挑戦](./note/20120411)
+* 2012年04月 [ソーシャルエロ動画ダウンローディングツールを開発](./note/20120401)
+* 2012年03月 [全自動2chまとめサイトを開発](./note/20120331)
+* 2012年02月 [@parosky1 のソースコードの販売](./note/20120216)
+* 2012年03月 [Android アプリ『ゴリラ』を公開](./note/20120212")
+* 2012年01月 [Chrome 拡張 『妻いらない』を公開](./note/20120103)
+* 2011年04月 Android向けゲーム『赤い配管工』を公開
+

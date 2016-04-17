@@ -1,0 +1,174 @@
+h2 {
+}
+
+.modal-content {
+    width: 960px;
+    margin-left: -180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+    padding-top: 70px;
+}
+
+h1 {
+    border-bottom-color: #eee;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+h2 {
+    border-bottom-color: #eee;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 5px;
+}
+
+p {
+    text-indent: 1em;
+}
+
+.g-tools_table {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    line-height: 1.2em;
+}
+
+.text-center {
+    text-indent: 0em;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:0px;
+    
+}
+
+.adsbygoogle {margin-top: 1em;}
+.responsive { width: 320px; height: 50px; }
+@media(min-width: 500px) { .responsive { width: 468px; height: 60px; } }
+@media(min-width: 800px) { .responsive { width: 728px; height: 90px; } }
+
+
+
+/* from http://www.iscle.com/web-it/sns-speed.html */
+#share ul{
+	height:auto;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+#share li{
+	font-size:14px;
+	text-align:center;
+	width:84px;
+	margin-right:1%;
+	margin-bottom:8px;
+	border-radius:3px;
+	list-style:none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+#share li.share-twitter{
+	background:#55acee;
+	box-shadow:0 2px #2795e9;
+	float:left;
+}
+#share li.share-twitter:hover{
+	background:#83c3f3;
+}
+#share li.share-facebook{
+	background:#3b5998;
+	box-shadow:0 2px #2d4373;
+	float:left;
+}
+#share li.share-facebook:hover{
+	background:#4c70ba;
+}
+#share li.share-google{
+	background:#dd4b39;
+	box-shadow:0 2px #c23321;
+	float:left;
+}
+#share li.share-google:hover{
+	background:#e47365;
+}
+#share li.share-hatena{
+	background:#2c6ebd;
+	box-shadow:0 2px #225694;
+	float:left;
+}
+#share li.share-hatena:hover{
+	background:#4888d4;
+}
+#share li.share-pocket{
+	background:#f13d53;
+	box-shadow:0 2px #e6152f;
+}
+#share li.share-pocket:hover{
+	background:#f26f7f;
+}
+#share a{
+	display:block;
+	height:27px;
+	padding-top:6px;
+	color:#ffffff;
+	text-decoration:none;
+}
+#share a:hover{
+	text-decoration:none;
+	color:#ffffff;
+}
+
+
+/* from http://pandoc.org/demo/example18a.html */
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
