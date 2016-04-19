@@ -11,7 +11,7 @@ import yaml
 import werkzeug.contrib.atom
 import BeautifulSoup
 
-IS_LOCAL = False
+IS_LOCAL = True
 DIRECTORY_SRC = '../src'
 DIRECTORY_FEED = '/note'
 DIRECTORY_HTML = '../html'
